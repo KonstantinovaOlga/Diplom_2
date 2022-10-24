@@ -12,7 +12,6 @@ public class UserAPI {
 
     private String token;
 
-
     private final UserObj user;
 
     public UserAPI (UserObj user) {
@@ -70,7 +69,7 @@ public class UserAPI {
                         .and()
                         .body(user)
                         .when()
-                        .post(LOGIN_USER);
+                        .delete(UPDATE_USER);
         return response;
     }
 

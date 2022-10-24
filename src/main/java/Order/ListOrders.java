@@ -1,5 +1,4 @@
 package Order;
-import java.util.ArrayList;
 import java.util.List;
 
 public class ListOrders {
@@ -7,7 +6,6 @@ public class ListOrders {
     private List<Order> orders;
     private int total;
     private int totalToday;
-
     public ListOrders() {
     }
 
